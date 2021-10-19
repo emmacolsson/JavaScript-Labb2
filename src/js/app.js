@@ -21,14 +21,6 @@ const news = [
     },
     
 ]
-
-
-
-
-
-
-
-
 /** 
  * 
  * This is where you add code that will manipulate index.html!
@@ -73,8 +65,6 @@ const news = [
  });
  
  document.querySelector('img').src="https://images.unsplash.com/photo-1634496495743-1492d470f741?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1828&q=80";
-
-
 
 const newsArticle = document.querySelector('#news')
 newsArticle.appendChild(document.createElement('ul'))
